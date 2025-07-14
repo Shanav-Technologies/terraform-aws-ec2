@@ -73,7 +73,7 @@ module "spot-ec2" {
   ssh_allowed_ports = [22]
 
   #Keypair
-  public_key = "ssh-ejllt6FE/X7jf/RubFCUm0zFeB7762gMVytflmxYE/e8fwsqnnabhgdcbvnjOOgvdmLNbp0sES+qEdv9C8E8b61xbdhPMTFSd+1nuUG57KoMORsZoHGptg7i/QXs32pqlxftTqEschCpitGuBN4NxwybES6FdkYLXFZYWiv7uuujVl"
+  public_key = "ssh-ejllt6FE/X7jf/RubFCUm0zFeB77xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx+1nuUG57KoMORsZoHGptg7i/QXs32pqlxftTqEschCpitGuBN4NxwybES6FdkYLXFZYWiv7uuujVl"
 
   # Spot-instance
   spot_price                          = "0.3"

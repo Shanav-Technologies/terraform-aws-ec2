@@ -87,7 +87,7 @@ module "ec2" {
   instance_count       = 1
   ami                  = "ami-020cba7c55df1f615"
   instance_type        = "t2.micro"
-  public_key           = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPOY10vvCSARJp5vsUxcKSJKes9QW/yrEHcZwwpt8vRt roshan@roshan"
+  public_key           = "ssh-ed25519 AAAAC3NzaC1lZDI1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxes9QW/yrEHcZwwpt8vRt roshan@roshan"
   subnet_ids           = tolist(module.public_subnets.public_subnet_id)
   iam_instance_profile = module.iam-role.name
 

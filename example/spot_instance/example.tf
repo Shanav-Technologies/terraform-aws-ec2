@@ -52,7 +52,7 @@ module "spot-ec2" {
   ssh_allowed_ports = [22]
 
   #Keypair
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPOY10vvCSARJp5vsUxcKSJKes9QW/yrEHcZwwpt8vRt roshan@roshan"
+  public_key = "ssh-ed25519 AAAAC3NzaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxJKes9QW/yrEHcZwwpt8vRt roshan@roshan"
 
   # Spot-instance
   spot_price                          = "0.3"
