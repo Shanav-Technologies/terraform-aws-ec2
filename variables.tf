@@ -519,11 +519,6 @@ variable "spot_launch_group" {
   description = "A launch group is a group of spot instances that launch together and terminate together. If left empty instances are launched and terminated individually"
 }
 
-variable "spot_block_duration_minutes" {
-  type        = number
-  default     = null
-  description = "The required duration for the Spot instances, in minutes. This value must be a multiple of 60 (60, 120, 180, 240, 300, or 360)"
-}
 
 variable "spot_instance_interruption_behavior" {
   type        = string
