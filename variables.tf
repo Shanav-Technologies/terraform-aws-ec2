@@ -36,7 +36,7 @@ variable "tags" {
 
 variable "managedby" {
   type        = string
-  default     = "shanav-tech"
+  default     = "Shanav-Technologies"
   description = ""
 }
 
